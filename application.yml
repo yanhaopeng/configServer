@@ -1,5 +1,5 @@
 server:
-    port: 8081
+    port: 8080
 
 spring:
     application:
@@ -8,7 +8,7 @@ spring:
         active: prod
     datasource:
         name: test
-        url: jdbc:mysql://localhost:3306/pro?useSSL=false&useUnicode=true&characterEncoding=utf8&serverTimezone=GMT
+        url: jdbc:mysql://localhost:3306/pro?useSSL=false&useUnicode=true&characterEncoding=utf8&serverTimezone=GMT&zeroDateTimeBehavior=convertToNull
         username: root
         password: admin
         #druid数据源
